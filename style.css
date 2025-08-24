@@ -1,0 +1,49 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+    background-color: azure;
+    color: #3e2723;
+    margin: 20px;
+}
+h1 {
+    text-align: center; /* Centrar el título principal */
+    color: #6f4e37; /* Color café */
+}
+
+h2 {
+    color: #8b5e3c;
+    border-bottom: 2px solid #8b5e3c; /* Línea debajo del subtítulo */
+    padding-bottom: 5px;
+}
+ul {
+    list-style-type: none; /* Quitar los puntos de la lista */
+    padding: 0;
+}
+
+li {
+    margin-bottom: 20px; /* Separación entre cada café/postre */
+    background-color: #fff8f0; /* Fondo ligero de cada item */
+    padding: 10px;
+    border-radius: 8px; /* Bordes redondeados */
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.1); /* Sombra suave */
+}
+li img {
+    width: 150px; /* Tamaño uniforme */
+    height: auto;
+    display: block;
+    margin-top: 5px; /* Separación del texto */
+    border-radius: 5px; /* Bordes redondeados */
+}
+li b {
+    color: #6f4e37; /* Color café oscuro para el nombre */
+    font-size: 18px;
+}
+li:hover {
+    background-color: #f3e0d5; /* Cambio de color suave al pasar el mouse */
+    transform: scale(1.02); /* Pequeño efecto de zoom */
+    transition: all 0.3s ease;
+}
+section img:first-of-type {
+    display: block;
+    margin: 0 auto;
+    background-color: antiquewhite;
+}
